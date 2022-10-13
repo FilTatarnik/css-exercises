@@ -19,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 24px;
 }
 
 input {
@@ -30,32 +31,28 @@ input {
 }
 
 ul {
+  padding: 0;
   list-style: none;
+  list-style-position: inside;
 }
 
 a {
   text-decoration: none;
+  color: #1c1c1c;
+  padding: 0 8px 0 8px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-}
-
-.header-left {
-  
-}
-
-.header-right {
-  
-}
+} 
 
 .left-links {
-  
+  display: flex;
 }
 
 .right-links {
-
+  display: flex;
 }
 
 .content {
@@ -67,4 +64,5 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
+  background-color: #eeeeee;
 }
