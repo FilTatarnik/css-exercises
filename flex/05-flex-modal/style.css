@@ -30,11 +30,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.5%;
+  padding-right: 8px;
 }
 
 .midbottom-section {
-  
 }
 
 .icon {
@@ -61,6 +60,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.buttons {
+  margin: 10px 0 10px 0;
 }
 
 button {
