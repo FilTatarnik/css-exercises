@@ -8,6 +8,8 @@ body {
 
 .main-section {
   display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 
 .header {
@@ -58,8 +60,15 @@ a {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  max-width: 20%;
+  max-width: 15%;
+  min-width: 15%;
   padding: 16px 16px 15% 16px;
   margin: 16px 16px 8px 8px;
+  overflow-wrap: break-word;
 }
 
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
